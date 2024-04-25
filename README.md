@@ -55,9 +55,12 @@ Dataset ini berisi informasi terkait aktivitas penjualan layanan software selama
 
 Dalam data understanding dan cleaning, kita melakukan sebagai berikut: 
 1. Data Understanding
+   - Melihat informasi dataset
+   - Penyesuaian datatypes
+   - Pengurangan dan penambahan kolom
    - Melakukan stastika deskriptif untuk mengetahui mean, nilai min & max, melihat distribusi data, mengecek outliers dan juga melihat menghitung korelasi antar kolom numerik.
    - Menghitung jumlah unique values dari kolom kategorik, dan melihat modus dari masing-masing kolom.
-2. Data Cleaning
+3. Data Cleaning
    - Melakukan perubahan tipe data pada kolom Order Date menjadi datetime, mengecek data outlier, dan distribusi data.
    - Pengecakan Missing dan Duplicated Values
 
